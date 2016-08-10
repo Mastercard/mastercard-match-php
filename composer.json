@@ -1,0 +1,26 @@
+{
+    "name": "mastercard/match",
+    "description": "This is the api for match",
+    "version": "1.0.0",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "MasterCard Worldwide",
+            "email": "ApiSupport@mastercard.com"
+        }
+    ],
+    "require": {
+        "mastercard/mastercard-api-core": ">=1.0.0"
+    },
+    "require-dev": {
+	    "phpunit/phpunit": "^5.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "MasterCard": ""
+        }
+    },
+    "archive": {
+            "exclude": ["/result", "/mcapi_sandbox_key.p12", ".gitignore", "allfiles.tar"]
+    }
+}
